@@ -26,8 +26,7 @@ AddEventHandler('nv_Scoreboard:PlayerJoined', function()
     end
     
     if Config.RPNames then
-        local Player = QBCore.Functions.GetPlayerData(_source)
-        local FullName = Player.charinfo.firstname..' '.. Player.charinfo.lastname
+        TriggerClientEvent('nv_Scoreboard:PlayerInfo', _source, FullName)
         PLAYERS[_source] = { id = _source, name = FullName }
     else
         PLAYERS[_source] = { id = _source, name = GetPlayerName(_source) }
