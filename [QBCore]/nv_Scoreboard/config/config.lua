@@ -98,6 +98,54 @@ Config.Business = {
             Status = {'DISCOUNTS', 'NORMAL'},
         }
     },
+        ['SANDERS'] = {
+        Job = 'sanders',
+        Description = 'Bike lover? Come with us.',
+        Status = {
+            Service = {'Oppened', 'Closed'},
+            Status = {'DISCOUNTS', 'NORMAL'},
+        }
+    },
+    ['UWU-CAFE'] = {
+        Job = 'catcafe',
+        Description = 'Come try some purr-fect food.',
+        Status = {
+            Service = {'Oppened', 'Closed'},
+            Status = {'DISCOUNTS', 'NORMAL'},
+        }
+    },
+    ['PIZZA-THIS'] = {
+        Job = 'pizzathis',
+        Description = 'Pizza, pizza.',
+        Status = {
+            Service = {'Oppened', 'Closed'},
+            Status = {'DISCOUNTS', 'NORMAL'},
+        }
+    },
+    ['POPS-DINER'] = {
+        Job = 'popsdiner',
+        Description = 'Next best thing after Cracker Barrel.',
+        Status = {
+            Service = {'Oppened', 'Closed'},
+            Status = {'DISCOUNTS', 'NORMAL'},
+        }
+    },
+    ['BEAN-MACHINE'] = {
+        Job = 'beanmachine',
+        Description = 'Los Santos runs on Bean Machine.',
+        Status = {
+            Service = {'Oppened', 'Closed'},
+            Status = {'DISCOUNTS', 'NORMAL'},
+        }
+    },
+    ['BURGER-SHOT'] = {
+        Job = 'burgershot',
+        Description = 'Heaven in a bun.',
+        Status = {
+            Service = {'Oppened', 'Closed'},
+            Status = {'DISCOUNTS', 'NORMAL'},
+        }
+    },
 }
 
 Config.Robberies = {
