@@ -98,7 +98,7 @@ Config.Business = {
             Status = {'DISCOUNTS', 'NORMAL'},
         }
     },
-        ['SANDERS'] = {
+    ['SANDERS'] = {
         Job = 'sanders',
         Description = 'Bike lover? Come with us.',
         Status = {
@@ -138,7 +138,7 @@ Config.Business = {
             Status = {'DISCOUNTS', 'NORMAL'},
         }
     },
-    ['BURGER-SHOT'] = {
+    ['BURGERSHOT'] = {
         Job = 'burgershot',
         Description = 'Heaven in a bun.',
         Status = {
