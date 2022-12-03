@@ -2,8 +2,7 @@ Config = {}
 
 Config.Locale = 'en'
 
--- Set your server player limit
-Config.limit = 48
+Config.RPNames = false -- Set to "true" if you want RP Names
 
 Config.Translations = {
     ['en'] = {
@@ -90,5 +89,23 @@ Config.Business = {
             Service = {'Oppened', 'Closed'},
             Status = {'DISCOUNTS', 'NORMAL'},
         }
+    },
+}
+
+Config.Robberies = {
+    ['BANK'] = {
+        Job = 'police',
+        Description = "Break into the bank's facilities stealthily, or enter like in the movies.",
+        Min = 4,
+    },
+    ['CASINO'] = {
+        Job = 'police',
+        Description = "Enter the casino to rob the safe, but be careful, the cameras are always watching you.",
+        Min = 6,
+    },
+    ['YACHT'] = {
+        Job = 'police',
+        Description = "Swim to the yacht to steal its valuables, or simply land on it and steal everything.",
+        Min = 12,
     },
 }
