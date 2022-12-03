@@ -101,19 +101,39 @@ Config.Business = {
 }
 
 Config.Robberies = {
-    ['BANK'] = {
+    ['FLEECA-ROBBERY'] = {
         Job = 'police',
-        Description = "Break into the bank's facilities stealthily, or enter like in the movies.",
+        Description = "Break into Fleeca Bank's facilities stealthily, or enter like in the movies.",
         Min = 4,
     },
-    ['CASINO'] = {
+    ['PALETO-ROBBERY'] = {
         Job = 'police',
-        Description = "Enter the casino to rob the safe, but be careful, the cameras are always watching you.",
-        Min = 6,
+        Description = "Break into Paleto Bank's facilities stealthily, or enter like in the movies.",
+        Min = 5,
     },
-    ['YACHT'] = {
+    ['PACIFIC-ROBBERY'] = {
         Job = 'police',
-        Description = "Swim to the yacht to steal its valuables, or simply land on it and steal everything.",
-        Min = 12,
+        Description = "Break into Pacific Bank's facilities stealthily, or enter like in the movies.",
+        Min = 5,
+    },
+    ['JEWELRY-ROBBERY'] = {
+        Job = 'police',
+        Description = "Enter a jewelry store to rob the safe, but be careful, the cameras are always watching you.",
+        Min = 3,
+    },
+    ['BANKTRUCK-ROBBERY'] = {
+        Job = 'police',
+        Description = "Find a bank truck and steal its valuables.",
+        Min = 2,
+    },
+    ['STORE-ROBBERY'] = {
+        Job = 'police',
+        Description = "Find a store and rob the registers, if you are lucky you'll get a sticky note.",
+        Min = 2,
+    },
+    ['HOUSE-ROBBERY'] = {
+        Job = 'police',
+        Description = "Locate a house and steal its valuables.",
+        Min = 1,
     },
 }
