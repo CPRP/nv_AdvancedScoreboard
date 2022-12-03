@@ -41,7 +41,7 @@ RegisterCommand('scoreboard', function()
     })
 end)
 
-RegisterKeyMapping('scoreboard', 'Display/Hide scoreboard', 'keyboard', 'f10')
+RegisterKeyMapping('scoreboard', 'Display/Hide scoreboard', 'keyboard', 'home')
 
 RegisterNUICallback('exit', function(data)
     display = not display
