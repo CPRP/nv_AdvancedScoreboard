@@ -2,7 +2,7 @@ Config = {}
 
 Config.Locale = 'en'
 
-Config.RPNames = false -- Set to "true" if you want RP Names
+Config.RPNames = true -- Set to "true" if you want RP Names
 
 Config.Translations = {
     ['en'] = {
@@ -26,7 +26,7 @@ Config.Notification = function(action)
 end
 
 Config.Business = {
-    ['LSPD'] = {
+    ['POLICE'] = {
         Job = 'police',
         Description = 'To protect and to serve.',
         Status = {
@@ -34,20 +34,28 @@ Config.Business = {
             Defcons = {'Defcon 1', 'Defcon 2', 'Defcon 3', 'Defcon 4', 'Defcon 5'},
         }
     },
-    ['LSMD'] = {
+    ['MEDICAL'] = {
         Job = 'ambulance',
-        Description = 'Dedicated to safing lifes.',
+        Description = 'Dedicated to saving lifes.',
         Status = {
             Service = {'Available', 'Busy', 'Out of service'},
             Defcons = {'Ambulances', 'In Hospital', 'None'},
         }
     },
-    ['LSC'] = {
+    ['FIRE'] = {
+        Job = 'ambulance',
+        Description = 'Dedicated to saving lifes.',
+        Status = {
+            Service = {'Available', 'Busy', 'Out of service'},
+            Defcons = {'Ambulances', 'In Hospital', 'None'},
+        }
+    },
+    ['MECHANIC'] = {
         Job = 'mechanic',
         Description = 'Modify your vehicles as your liking.',
         Status = {
             Service = {'Available', 'Busy', 'Out of service'},
-            Tunning = {'In LS', 'In PT', 'In SS'},
+            Tunning = {'In Los Santos', 'In Paleto', 'In Sandy Shores'},
         }
     },
     ['VANILLA'] = {
@@ -58,14 +66,14 @@ Config.Business = {
             Prices = {'Discount', '20$'},
         }
     },
-    ['BAHAMAS'] = {
-        Job = 'bahamas',
-        Description = 'Have some fun with our parties.',
-        Status = {
-            Service = {'Oppened', 'Closed'},
-            Days = {'24/7', '24/5'},
-        }
-    },
+    -- ['BAHAMAS'] = {
+    --     Job = 'bahamas',
+    --     Description = 'Have some fun with our parties.',
+    --     Status = {
+    --         Service = {'Oppened', 'Closed'},
+    --         Days = {'24/7', '24/5'},
+    --     }
+    -- },
     ['TEQUILA-LA'] = {
         Job = 'tequilala',
         Description = 'Leave your problems at one side.',
@@ -82,8 +90,8 @@ Config.Business = {
             Status = {'Operative', 'Accident'},
         }
     },
-    ['CONCESSIONAIRE'] = {
-        Job = 'vehicle_seller',
+    ['LS-MOTORS'] = {
+        Job = 'cardealer',
         Description = 'Car lover? Come with us.',
         Status = {
             Service = {'Oppened', 'Closed'},
