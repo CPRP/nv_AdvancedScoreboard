@@ -189,4 +189,9 @@ Config.Robberies = {
         Description = "Rob an ATM before the police get there.",
         Min = 1,
     },
+    ['CAR-TRANSPORT'] = {
+        Job = 'police',
+        Description = "Steal the vehicles from the marked veicle transport.",
+        Min = 1,
+    },
 }
