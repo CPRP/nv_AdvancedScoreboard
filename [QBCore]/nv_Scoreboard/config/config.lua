@@ -26,8 +26,32 @@ Config.Notification = function(action)
 end
 
 Config.Business = {
-    ['POLICE'] = {
+    ['LSPD'] = {
         Job = 'police',
+        Description = 'To protect and to serve.',
+        Status = {
+            Service = {'Available', 'Busy', 'Out of service'},
+            Defcons = {'Defcon 1', 'Defcon 2', 'Defcon 3', 'Defcon 4', 'Defcon 5'},
+        }
+    },
+    ['BCSO'] = {
+        Job = 'bcso',
+        Description = 'To protect and to serve.',
+        Status = {
+            Service = {'Available', 'Busy', 'Out of service'},
+            Defcons = {'Defcon 1', 'Defcon 2', 'Defcon 3', 'Defcon 4', 'Defcon 5'},
+        }
+    },
+    ['SASP'] = {
+        Job = 'sasp',
+        Description = 'To protect and to serve.',
+        Status = {
+            Service = {'Available', 'Busy', 'Out of service'},
+            Defcons = {'Defcon 1', 'Defcon 2', 'Defcon 3', 'Defcon 4', 'Defcon 5'},
+        }
+    },
+    ['SAPR'] = {
+        Job = 'sapr',
         Description = 'To protect and to serve.',
         Status = {
             Service = {'Available', 'Busy', 'Out of service'},
